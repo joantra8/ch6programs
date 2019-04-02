@@ -2,15 +2,15 @@ package q4;
 
 public class House {
 	public static void addRoof() {
-		System.out.println("  /\\  ");
-		System.out.println("  / \\  ");
-		System.out.println(" /   \\  ");
-		System.out.println("/_______\\");
+		System.out.println("   /\\  ");
+		System.out.println("  /  \\  ");
+		System.out.println(" /    \\  ");
+		System.out.println("/_____ \\");
 	}
 	public static void addBase() {
-		System.out.println("|   |");
-		System.out.println("|   |");
-		System.out.println("|   |");
+		System.out.println("|      |");
+		System.out.println("|      |");
+		System.out.println("|      |");
 		System.out.println("|______|");
 		
 	}
@@ -24,6 +24,5 @@ public class House {
 		addBase();
 		addWalk();
 	}
-
 
 }
